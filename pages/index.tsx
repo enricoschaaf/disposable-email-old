@@ -1,11 +1,14 @@
+import { Inbox } from "components/Inbox"
+import { Output } from "components/Output"
 import Head from "next/head"
 
 const Index = () => (
   <>
     <Head>
-      <title>Title</title>
+      <title>Disposable Email</title>
     </Head>
-    <div>Index</div>
+    <Output />
+    <Inbox />
   </>
 )
 

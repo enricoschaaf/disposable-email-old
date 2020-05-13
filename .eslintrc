@@ -14,7 +14,7 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
-    "plugin:@next/eslint-plugin-next",
+    "plugin:@next/next/recommended",
     "prettier/@typescript-eslint"
   ],
   "globals": {
@@ -29,18 +29,30 @@
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "react-hooks", "jsx-a11y"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "jsx-a11y",
+    "@next/next"
+  ],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "import/no-anonymous-default-export": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/ban-ts-ignore": "warn",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/no-absolute-path": "off"
   },
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["."]
+      }
     }
   }
 }
