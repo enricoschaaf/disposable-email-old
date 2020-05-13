@@ -42,8 +42,7 @@
     "import/no-anonymous-default-export": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/ban-ts-ignore": "warn",
-    "react/prop-types": "off",
-    "import/no-absolute-path": "off"
+    "react/prop-types": "off"
   },
   "settings": {
     "react": {
