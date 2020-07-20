@@ -1,5 +1,5 @@
 {
-  "name": "disposable-email",
+  "name": "disposable-email-old",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -8,30 +8,30 @@
   },
   "dependencies": {
     "formidable": "^1.2.2",
-    "nanoid": "^3.1.7",
-    "next": "^9.4.0",
+    "nanoid": "^3.1.10",
+    "next": "^9.4.4",
     "pusher": "^3.0.1",
-    "pusher-js": "^6.0.2",
+    "pusher-js": "^6.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^9.4.0",
-    "@tailwindcss/ui": "^0.3.0",
+    "@next/eslint-plugin-next": "^9.4.4",
+    "@tailwindcss/ui": "^0.4.0",
     "@types/formidable": "^1.0.31",
-    "@types/node": "^13.13.5",
-    "@types/react": "^16.9.35",
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "eslint": "^7.0.0",
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^4.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "prettier": "^2.0.5",
-    "tailwindcss": "^1.4.6",
-    "typescript": "^3.8.3"
+    "tailwindcss": "^1.5.1",
+    "typescript": "^3.9.7"
   }
 }
